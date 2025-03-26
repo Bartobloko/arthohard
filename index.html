@@ -1,0 +1,206 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthrohard</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="./style/core/variables.css">
+    <link rel="stylesheet" href="./style/core/reset.css">
+    <link rel="stylesheet" href="./style/core/base.css">
+    <link rel="stylesheet" href="./style/header/header.css">
+    <link rel="stylesheet" href="./style/header/navbar.css">
+    <link rel="stylesheet" href="./style/header/hamburger.css">
+    <link rel="stylesheet" href="./style/header/navigation.css">
+    <link rel="stylesheet" href="./style/header/hero.css">
+    <link rel="stylesheet" href="./style/product/product.css">
+    <link rel="stylesheet" href="./style/ingredients/ingredients.css">
+    <link rel="stylesheet" href="./style/products/products.css">
+    <link rel="stylesheet" href="./style/core/media-queries.css">
+</head>
+<body>
+<header class="header">
+    <div class="navbar">
+        <div class="logo">
+            <img src="./assets/img/arthrohard_logo.svg" alt="Logo Artrohard">
+        </div>
+        <nav>
+            <button class="hamburger">
+            <span class="hamburger__box">
+                <span class="hamburger__inner"></span>
+            </span>
+            </button>
+            <div class="navigation">
+                <ul class="navigation__list">
+                    <li data-nav="section1" class="navigation__item"><a href="#CO-WYROZNIA-ARTHROHARD">CO WYRÓŹNIA ARTHROHARD</a></li>
+                    <li data-nav="section2" class="navigation__item"><a href="#SKLAD">SKŁAD</a></li>
+                    <li  data-nav="section3"  class="navigation__item"><a href="#PRODUCTS" >PRODUKTY</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="hero">
+        <div class="hero__image">
+            <img src="./assets/img/hero.png" alt="Zdjęcie butelki z produktem">
+        </div>
+        <div class="hero__text">
+            <div class="hero__logo">
+                <img src="./assets/img/arthrohard_logo.svg" alt="Logo Artrohard">
+            </div>
+            <h2 class="section-title">Lab-V Arthrohard Preparat
+                na wsparcie stawów dla psa i kota</h2>
+            <p class="section-text">Arthrohard to dobrze przyswajalny suplement diety
+                w formie syropu, stworzony z myślą o zdrowiu stawów Twojego psa lub kota.</p>
+            <!--        #TODO-->
+            <div>
+                <a href="https://github.com/Bartobloko" class="buy-now-btn" target="_blank">Kup teraz</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section id="CO-WYROZNIA-ARTHROHARD" class="ARTHROHARD_product">
+    <h2 class="section-title">Co wyróżnia nasz preparat</h2>
+    <div class="product__container">
+        <div class="product__box">
+            <h3 class="product__subtitle">Innowacyjny dodatek - Czarciego Pazura</h3>
+            <p class="product__pharagraph">Zapewnia dodatkowe wsparcie w zwalczaniu stanów bólowych i zapalnych. Skoncentrowane składniki aktywne, opracowane we współpracy z lekarzami weterynarii, przynoszą szybkie i zauważalne efekty, szczególnie korzystne dla zwierząt
+                z poważnymi problemami stawowymi.</p>
+            <div class="product__img">
+                <img src="./assets/img/czarny-pazur.png" alt="Zdjęcie kwiatu czarnego pazura">
+            </div>
+        </div>
+        <div class="product__box">
+            <div class="subtitle-container">
+                <h3 class="product__subtitle">
+                    Wygoda - dwa sposoby podawania</h3>
+            </div>
+            <div class="points__container">
+                <div class="product__point">
+                    <span>1</span>
+                    <p>Bezpośrednio do pyszczka</p>
+                </div>
+                <div class="product__point">
+                    <span>2</span>
+                    <p>Zmieszany z karmą</p>
+                </div>
+            </div>
+            <div class="product__imgs">
+                <div class="product__img--half">
+                    <img src="./assets/img/eating-1.png" alt="Pies który je z ręki">
+                </div>
+                <div class="product__img--half">
+                    <img src="./assets/img/eating-2.png" alt="Pies który je z miski">
+                </div>
+            </div>
+        </div>
+        <div class="product__box">
+            <div class="subtitle-container">
+                <h3 class="product__subtitle">Skuteczność -
+                    skoncentrowana dawka</h3>
+            </div>
+            <p class="product__pharagraph"><span>Tylko jedna porcja dziennie.</span>
+                To nie tylko wygoda, ale również gwarancja,
+                że Twoje zwierzę otrzymuje wszystko, czego potrzebuje, aby cieszyć się zdrowiem i aktywnością na długo. Skorzystaj z zalet Arthrohard i zobacz różnicę w komforcie życia swojego zwierzęcia.</p>
+            <div class="product__img">
+                <img src="./assets/img/strzykawka.png" alt="Zdjęcie strzykawki">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="SKLAD" class="ingredients">
+    <h2 class="section-title">Skład w 5 ml</h2>
+    <h3 class="ingredients__subtitle --small">Co dają poszczególne składniki:</h3>
+    <div class="ingredients-grid">
+        <div class="ingredients__container">
+            <div class="ingredients__box">
+                <div class="ingredients__icon">
+                    <img src="./assets/img/placeholder.png" alt="Siarczan glukozaminy placeholder">
+                </div>
+                <h2 class="ingredients__subtitle">Siarczan glukozaminy</h2>
+                <span class="ingredients__weight">650 mg</span>
+                <p class="ingredients__text">
+                    Glukozamina jest naturalnym składnikiem chrząstki. Dodatek glukozaminy przyczynia się do zwiększenia produkcji glikozaminoglikanów (m.in. siarczanu keratanu, heparanu, kwasu hialuronowego), które pomagają w odbudowie chrząstki, co jest szczególnie korzystne dla zwierząt ze zmianami zwyrodnieniowymi stawów.
+                </p>
+            </div>
+            <div class="ingredients__box">
+                <div class="ingredients__icon">
+                    <img src="./assets/img/placeholder.png" alt="Ikona trawy">
+                </div>
+                <h2 class="ingredients__subtitle">Czarci pazur</h2>
+                <span class="ingredients__weight">250 mg</span>
+                <p class="ingredients__text">
+                    Czarci pazur jest rośliną, która ma właściwości przeciwzapalne i przeciwbólowe. Może to pomóc zwierzętom, które doświadczają bólu i stanu zapalnego związanego z problemami ze stawami.
+                </p>
+            </div>
+            <div class="ingredients__box">
+                <div class="ingredients__icon">
+                    <img src="./assets/img/placeholder.png" alt="Ikona mikroskopu">
+                </div>
+                <h2 class="ingredients__subtitle">Siarczan chondroityny</h2>
+                <span class="ingredients__weight">300 mg</span>
+                <p class="ingredients__text">
+                    Chondroityna, podobnie jak glukozamina, jest składnikiem chrząstki. Chondroityna pomaga zwalczać enzymy, które niszczą chrząstkę, a także pomaga chrząstce zatrzymać wodę, co jest ważne dla jej sprężystości i absorpcji wstrząsów.
+                </p>
+            </div>
+        </div>
+        <div class="ingredients__img">
+            <img src="./assets/img/single-product.png" alt="Zdjęcie butelki preparatu">
+            <a href="https://github.com/Bartobloko" class="buy-now-btn" target="_blank">Kup teraz</a>
+        </div>
+        <div class="ingredients__container">
+            <div class="ingredients__box">
+                <div class="ingredients__icon">
+                    <img src="./assets/img/placeholder.png" alt="Siarczan glukozaminy placeholder">
+                </div>
+                <h2 class="ingredients__subtitle">Siarczan glukozaminy</h2>
+                <span class="ingredients__weight">650 mg</span>
+                <p class="ingredients__text">
+                    Glukozamina jest naturalnym składnikiem chrząstki. Dodatek glukozaminy przyczynia się do zwiększenia produkcji glikozaminoglikanów (m.in. siarczanu keratanu, heparanu, kwasu hialuronowego), które pomagają w odbudowie chrząstki, co jest szczególnie korzystne dla zwierząt ze zmianami zwyrodnieniowymi stawów.
+                </p>
+            </div>
+            <div class="ingredients__box">
+                <div class="ingredients__icon">
+                    <img src="./assets/img/placeholder.png" alt="Ikona trawy">
+                </div>
+                <h2 class="ingredients__subtitle">Czarci pazur</h2>
+                <span class="ingredients__weight">250 mg</span>
+                <p class="ingredients__text">
+                    Czarci pazur jest rośliną, która ma właściwości przeciwzapalne i przeciwbólowe. Może to pomóc zwierzętom, które doświadczają bólu i stanu zapalnego związanego z problemami ze stawami.
+                </p>
+            </div>
+            <div class="ingredients__box">
+                <div class="ingredients__icon">
+                    <img src="./assets/img/placeholder.png" alt="Ikona mikroskopu">
+                </div>
+                <h2 class="ingredients__subtitle">Siarczan chondroityny</h2>
+                <span class="ingredients__weight">300 mg</span>
+                <p class="ingredients__text">
+                    Chondroityna, podobnie jak glukozamina, jest składnikiem chrząstki. Chondroityna pomaga zwalczać enzymy, które niszczą chrząstkę, a także pomaga chrząstce zatrzymać wodę, co jest ważne dla jej sprężystości i absorpcji wstrząsów.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="dog-container">
+        <img src="./assets/img/piesek%201.png" alt="piesek" class="ingredients_dog">
+    </div>
+</section>
+
+<section id="PRODUCTS">
+    <div class="products-select">
+        <div>
+        <label for="page-size-select">liczba produktów na stronie</label>
+        <select id="page-size-select">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+        </select>
+        </div>
+    </div>
+    <div id="products-container" class="products-container"> </div>
+</section>
+
+<script src="./script.js"></script>
+</body>
+</html>

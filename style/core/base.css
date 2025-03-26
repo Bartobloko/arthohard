@@ -1,0 +1,11 @@
+body {
+    font-family: 'Futura-PT', sans-serif;
+    background-color: var(--site-color);
+    padding-top: var(--navbar-height);
+
+}
+
+.section-title {
+    text-align: center;
+}
+
